@@ -13,9 +13,9 @@ return {
                     "pyright",
                     "vtsls",
                     "vue_ls",
+                    "eslint",
                 },
             })
         end,
     },
 }
-

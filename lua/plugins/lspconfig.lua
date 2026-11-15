@@ -2,6 +2,7 @@ return {
     {
         "neovim/nvim-lspconfig",
         config = function()
+            vim.lsp.config.eslint = {}
             vim.lsp.config.html = {}
             vim.lsp.config.cssls = {}
             vim.lsp.config.css_variables = {}
@@ -24,7 +25,7 @@ return {
                                 {
                                     name = "@vue/typescript-plugin",
                                     location = vim.fn.stdpath("data")
-                                    .. "/mason/packages/vue-language-server/node_modules/@vue/language-server",
+                                        .. "/mason/packages/vue-language-server/node_modules/@vue/language-server",
                                     languages = { "vue" },
                                     configNamespace = "typescript",
                                 }
