@@ -20,6 +20,7 @@ return {
                 filetypes = { "typescript", "javascript", "typescriptreact", "javascriptreact", "vue" },
                 settings = {
                     vtsls = {
+                        autoUseWorkspaceTsdk = true,
                         tsserver = {
                             globalPlugins = {
                                 {
