@@ -14,6 +14,7 @@ return {
                     "vtsls",
                     "vue_ls",
                     "eslint",
+                    "gopls",
                 },
             })
         end,
